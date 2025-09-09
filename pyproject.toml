@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "daasoft"
+version = "0.1.0"
+description = "DAAsoft - Kurdish Badinî normalization built from Avin's Normalization code."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "You (Avin)"}]
+keywords = ["Kurdish","Badini","Normalization","DAAsoft"]
+[tool.setuptools.packages.find]
+where = ["src"]
